@@ -22,8 +22,8 @@ import com.google.gdata.util.ServiceException;
 @SpringBootApplication
 public class GooglesheetApplication {
 	
-	String key = "AIzaSyCOMtbU3EqLTTkjTcVJVwfaRG4XDAorKG8";
-	static String uri = "https://docs.google.com/spreadsheets/d/1aTfAx17lJIA4DEjtQf7xOv4Y53J-rAqn/edit?usp=sharing&ouid=114847585114395114178&rtpof=true&sd=true";
+	String key = "";
+	static String uri = "";
 
 	public static void main(String[] args) throws AuthenticationException,
 			MalformedURLException, IOException, ServiceException {
